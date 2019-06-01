@@ -1,0 +1,3 @@
+main: core.dev.App
+name: CoreDev
+version: 0.1
