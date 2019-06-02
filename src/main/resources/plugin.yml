@@ -1,3 +1,8 @@
 main: core.dev.App
 name: CoreDev
 version: 0.1
+
+commands:
+  test:
+    description: Tests opening an inventory
+    usage: /test arg1 arg2 arg3 ...

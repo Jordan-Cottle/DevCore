@@ -8,7 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class App extends JavaPlugin {
     @Override
     public void onEnable() {
-        getLogger().info("Hello World!");
+        this.getCommand("test").setExecutor(new OpenInventory());
     }
 
     @Override
